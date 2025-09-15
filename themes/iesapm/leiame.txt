@@ -1,0 +1,66 @@
+Arquivos atualizados
+
+- style.css
+- header
+- footer
+
+
+
+
+
+
+- O arquivo js do bootstrap esta anexado no plugin wp-code do wordpress
+
+- criar acesso do cliente (editor)
+- mudar url wp
+- instalar yoast Seo
+- instalar wordfence
+- instalar all in one
+- analitics
+
+- atualizar no arquivo para puxar as imagens por id
+- atualizar icomoon
+- incluir favicon
+- rotative cards
+- animação na numeração
+
+- padrão de fonts
+- padrão de cores
+
+- plugin litespeed = OK
+- Banner para mobile =
+- centralizar vídeo =
+- Mascara do vídeo =
+- icones no icomoon =
+
+- animate logo pw = OK
+- links rede social = OK
+- google maps e waze = OK
+- menu mobile = OK
+- nav-toggle = OK
+
+- em-breve = OK
+- 404 = OK
+
+- Mensagem do Presidente = OK
+- Comissões e Diretoria Sonesp = OK
+- Inscrição = OK / Link = ?
+- Palestrantes = OK
+- Normas de envio = OK
+- Patrocinadores = OK / Lista dos patrocinadores = ?
+- Local do evento = OK
+- Contatos = OK
+- Highlights = OK
+
+- Linkar home = ainda falta = OK
+- Linkar as urls com PHP = OK
+- Favicon = OK
+- mandar o site com banner e Vídeo = OK
+- Ajustar o responsivo do vídeo
+- Organizar os arquivos / Plugins / Analitics / URL WP
+
+Criação
+
+- Video mais claro
+
+- Pagespeed

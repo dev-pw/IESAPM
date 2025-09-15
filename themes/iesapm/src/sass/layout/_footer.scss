@@ -1,0 +1,25 @@
+// footer
+.footer-info{
+    border-top: 10px solid $primary;
+
+    // .bl-contatos{
+
+    //     @include media-breakpoint-up(lg){
+    //         border-right: 1px solid #dee2e6;
+    //         border-left: 1px solid #dee2e6;
+    //     }
+    // }
+}
+
+
+.bl-pw {
+    a {
+        &:hover {
+            img {
+                animation-name: pulse;
+                animation-duration: .5s;
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+}

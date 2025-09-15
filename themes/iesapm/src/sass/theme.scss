@@ -1,0 +1,46 @@
+// abstracts
+@import 'abstracts/fonts';
+@import 'abstracts/icomoon';
+@import 'abstracts/animate';
+@import 'abstracts/bootstrap';
+@import 'abstracts/base';
+
+// layout
+@import 'layout/header';
+@import 'layout/footer';
+
+// components
+@import 'components/menu';
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/post-metadata';
+@import 'components/social';
+@import 'components/owl-carousel';
+@import 'components/banner-header-carousel';
+@import 'components/paginacao';
+@import 'components/list-search';
+
+// carousel cursos
+.js-carousel-cursos{
+
+    .owl-item{
+        margin-top: 10px;
+    }
+
+    .c-card-curso:hover{
+        box-shadow: none;
+    }
+}
+
+// singles dos cursos
+.single-graduacao,
+.single-pos-graduacao,
+.single-extensao{
+
+    .entry-content-post{
+
+        h2,h3{
+            @extend .fs-5;
+        }
+    }
+}

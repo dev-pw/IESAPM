@@ -1,0 +1,46 @@
+// fonts
+
+// light
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-display: auto;
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+// regular
+@font-face {
+    font-family: 'SegoeUI';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url('../fonts/segoeui.ttf') format('truetype');
+}
+
+// semibold
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: auto;
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+// bold
+@font-face {
+    font-family: 'SegoeUI';
+    font-style: normal;
+    font-weight: 700;
+    font-display: auto;
+    src: url('../fonts/segoeuib.ttf') format('truetype');
+}
+
+// bolder
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-display: auto;
+    src: url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+}

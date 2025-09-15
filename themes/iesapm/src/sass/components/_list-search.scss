@@ -1,0 +1,14 @@
+// lista de resultados da busca
+$component: ".c-list-search";
+
+#{$component} {
+
+    li{
+        @extend .p-3;
+    }
+
+    li:nth-child(odd){
+        background-color: $light;
+        border-left: 4px solid $secondary;
+    }
+}

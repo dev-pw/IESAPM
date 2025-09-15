@@ -1,0 +1,11 @@
+// cards
+
+.c-card-curso,
+.c-card-post{
+    @extend .transition;
+
+    &:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 10px 10px #5858587a;
+    }
+}

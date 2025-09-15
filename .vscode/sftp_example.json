@@ -1,0 +1,20 @@
+{
+  "name": "IESAPM",
+  "host": "",
+  "protocol": "ftp",
+  "port": 21,
+  "username": "",
+  "password": "",
+  "remotePath": "/public_html/site/wp-content/themes",
+  "context": "themes/iesapm",
+  "uploadOnSave": true,
+  "watcher": {
+    "files": "**/*.{css,css.map}",
+    "autoUpload": true,
+    "autoDelete": false
+  },
+  "ignore": [
+    "node_modules",
+    "package-lock.json"
+  ]
+}

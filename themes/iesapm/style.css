@@ -1,0 +1,18 @@
+/*
+	Theme Name: IESAPM - 2023
+	Description: Novo tema IESAPM 2023
+	Version: 0.0.1
+	Author: Alexandre Scrideli de Oliveira (alexandre@planetaw.com.br)
+	Author URI: https://planetaw.ag
+*/
+
+.h-linha-striped .h-linha-striped__item{
+	background-color: #fff;
+}
+.h-linha-striped .h-linha-striped__item:nth-child(odd) {
+	background-color: var(--bs-gray-200);
+}
+
+.postid-3093 .wp-bootstrap-blocks-row .wp-element-caption {
+    text-align: center;
+}

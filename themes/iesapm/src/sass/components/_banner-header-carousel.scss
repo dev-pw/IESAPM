@@ -1,0 +1,22 @@
+// banner header carousel
+
+#js-carousel-banner-header{
+
+    @include media-breakpoint-up(xl){
+
+        .owl-nav {
+            position: absolute;
+            top: 50;
+            left: 0;
+            right: 0;
+
+            .owl-prev {
+                left: 10px;
+            }
+
+            .owl-next {
+                right: 0;
+            }
+        }
+    }
+}

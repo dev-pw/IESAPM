@@ -1,0 +1,12 @@
+// modal
+
+.modal {
+    &-header {
+        background-color: $secondary;
+    }
+
+    &-title {
+        color: $white;
+
+    }
+}

@@ -1,0 +1,168 @@
+// base
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    padding-top: 73px;
+
+    @include media-breakpoint-up(lg){
+        padding-top: 132px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        padding-top: 149px;
+    }
+}
+
+.transition {
+    @include transition(all .2s ease-in-out);
+}
+
+a {
+    @extend .transition;
+}
+
+ul{
+    @extend .ps-0;
+}
+
+figure {
+    @extend .m-0, .p-0;
+}
+
+.pad-featured{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.pad-page {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.c-bloco-mensagem {
+    @extend .border-4, .border-primary, .border-start, .fw-bold, .ps-3, .fs-4, .text-primary;
+}
+
+#breadcrumbs{
+    @extend .text-dark, .small, .mb-0;
+
+    span span{
+        @extend .mx-2;
+
+        &:first-child{
+            @extend .ms-0;
+        }
+
+        a{
+            @extend .text-dark, .text-decoration-none;
+
+            &:hover{
+                @extend .text-decoration-underline;
+            }
+        }
+    }
+}
+
+.entry-content-post {
+
+    >* {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    p {
+        @include media-breakpoint-up(lg) {
+            text-align: justify;
+        }
+    }
+
+    a {
+        @extend .text-break;
+        color: $secondary;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+            color: $secondary;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $primary;
+    }
+
+    h2 {
+        &:not(:first-child) {
+            margin-top: 4rem;
+        }
+    }
+
+    h3 {
+        &:not(:first-child) {
+            margin-top: 3rem;
+        }
+    }
+
+    ul {
+        @extend .pe-0;
+
+        li {
+            list-style: none;
+            padding-left: 30px;
+            line-height: 1.5;
+
+            &:not(:first-child) {
+                margin-top: .5rem;
+            }
+
+            &:before {
+                content: '\f1db';
+                font-family: icomoon;
+                font-weight: bold;
+                font-style: normal;
+                margin: 0px 20px 0px 10px;
+                text-decoration: none;
+                @extend .text-primary;
+                font-size: 10px;
+                margin-left: -30px;
+            }
+        }
+    }
+
+    ol {
+        li {
+            line-height: 1.5;
+
+            &:not(:first-child) {
+                margin-top: .5rem;
+            }
+        }
+    }
+
+    .wp-bootstrap-blocks-button {
+
+        .btn{
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+
+        .btn-primary,
+        .btn-secondary{
+            color: $white;
+        }
+    }
+}

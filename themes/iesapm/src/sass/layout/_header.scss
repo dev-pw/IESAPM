@@ -1,0 +1,56 @@
+// header
+
+.l-header-site {
+    width: 100%;
+    position: absolute;
+    @include transition (all, .1s, linear);
+    z-index: 999;
+    background-color: $white;
+
+    .brand {
+        max-width: 200px;
+
+        @include media-breakpoint-up(lg) {
+            max-width: 250px;
+        }
+
+        @include media-breakpoint-up(xxl) {
+            max-width: 300px;
+        }
+    }
+
+    .l-buttons{
+        .btn{
+            padding: .5rem;
+        }
+    }
+
+    &.sticky {
+        position: fixed;
+        top: 0;
+        background-color: $white;
+        -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+        animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+        -webkit-box-shadow: 0 10px 10px -10px rgba(#000, .35);
+        box-shadow: 0 10px 10px -10px rgba(#000, .35);
+
+        @include media-breakpoint-up(lg) {
+
+            .brand {
+                max-width: 170px;
+            }
+
+            .col-direita {
+                display: none !important;
+            }
+
+            .c-nav-menu{
+                margin-top: 1.1rem!important;
+
+                .nav-menu-principal ul.sub-menu>li.menu-item:first-child{
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+}

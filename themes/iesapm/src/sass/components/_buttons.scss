@@ -1,0 +1,134 @@
+// custom buttons
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    position: relative;
+    min-width: 12rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.btn--sm{
+    padding: .5rem;
+}
+
+.btn-primary {
+    z-index: 1;
+    transition: color 400ms ease-in-out;
+    background-color: $primary;
+    color: #fff;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-color: #ff9e24;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 200ms ease-in-out;
+    }
+
+    &:hover {
+        &::before {
+            transform: scaleX(1);
+        }
+    }
+}
+
+.btn-secondary {
+    z-index: 1;
+    transition: color 400ms ease-in-out;
+    background-color: $secondary;
+    color: #fff;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-color: #ff9e24;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 200ms ease-in-out;
+    }
+
+    &:hover {
+        &::before {
+            transform: scaleX(1);
+        }
+    }
+}
+
+.btn-outline-primary {
+    z-index: 1;
+    transition: color 400ms ease-in-out;
+    background-color: $white;
+    border: 1px solid $primary;
+    color: $primary;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-color: $primary;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 200ms ease-in-out;
+    }
+
+    &:hover {
+        color: $white;
+        &::before {
+            transform: scaleX(1);
+        }
+    }
+}
+
+.custom-btn-light {
+    z-index: 1;
+    transition: color 400ms ease-in-out;
+    background-color: transparent;
+    border: 2px solid $white;
+    color: $white;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-color: $white;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 200ms ease-in-out;
+    }
+
+    &:hover {
+        color: $primary;
+
+        &::before {
+            transform: scaleX(1);
+        }
+    }
+}
